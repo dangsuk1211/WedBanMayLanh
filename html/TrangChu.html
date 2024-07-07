@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Trang chủ</title>
+
+  <!-- Bootstrap -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Icon -->
+  <link rel="stylesheet" href="../fontawesome-free-5.13.0-web/css/all.css">
+
+
+  <!-- File css-->
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/home.css">
+
+
+
+</head>
+
+<body class="bg-light">
+
+
+  <header class="fixed-top" style="background-color: #3498db;">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-xs-6  col-sm-3 col-md-3  col-lg-3" style="margin-top: -10px;">
+          <div class="container logo">
+            <p style="display:inline; font-size: 150%;"><a href="TrangChu.html" style="color: white;">Hoài Nam Store</a></p>
+          </div>
+          <p style="display:inline" class="hethongbanle">Hệ thống bán lẻ uy tính</p>
+        </div>
+
+        <div class="col-xs-6  col-sm-4 col-md-4 col-lg-4">
+
+          <form>
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Tên máy lạnh, hãng sản xuất ">
+              <button class="btn btn-primary"><i class="fas fa-search"></i></button>
+
+            </div>
+          </form>
+        </div>
+
+
+        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="margin-top: -4px;">
+
+          <p class="hotline">19008948</p>
+          <p class="hotro">Hotline hỗ trợ bán hàng</p>
+        </div>
+
+        <div class=" col-xs-3  col-sm-3 col-md-3 col-lg-3 dinhdanga">
+
+          <div class="row">
+
+            <div style="padding: 0px 2px 0px 0px;  text-align: center; " class="col-sx-6 col-sm-6 col-md-6 col-lg-6">
+              <a href="GioHang.html"><button style="width: 100%;" class="btn btn-outline-primary"> <i
+                    class="fas fa-shopping-cart"></i> Giỏ hàng </button></a>
+            </div>
+
+
+            <div id="odangnhap" class="col-sx-6 col-sm-6 col-md-6  col-lg-6" style="padding: 0px 0px 0px 2px;">
+              <button id="nutdangnhap" class="btn btn-outline-primary"><i class="fas fa-users"></i> Đăng nhập
+              </button>
+
+              <div id="bangdangnhap">
+                <a href="dangnhap.html"><button class="btn btn-warning"><i class="fas fa-users"></i> Đăng
+                    nhập</button></a>
+                <a href="dangky.html"><button class="btn btn-warning"><i class="fas fa-registered"></i> Tạo tài
+                    khoản</button></a>
+                <a href="dangnhap.html"><button class="btn btn-primary"><img src="../image/logo/fb.png"> Đăng nhập
+                    Facebook
+                  </button></a>
+                <a href="dangnhap.html"><button class="btn btn-danger"><img src="../image/logo/google.jpg"> Đăng nhập
+                    Google </button></a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- Page Content -->
+  <div style="padding-top: 30px; ">
+
+    <!-- dong 1 san pham-->
+    <div class="container bg-white ">
+
+      <div class="row">
+
+        <div class="col-lg-3" style="padding: 0px;" id="menuloai">
+         
+          <div class="list-group" style=" font-size: 14px; ">
+            <a onmouseover="hienThiMenuCap2()" href="DanhSach.html" class="list-group-item"> <i class="fas fa-wind"></i> Máy lạnh treo tường
+              <div id="menucap2">
+                 
+              
+                  <ul>
+                    <li>Máy lạnh Daikin Inverter</li>
+                    <li>Máy lạnh Mitsubishi</li>
+                    <li>Máy lạnh LG</li>
+                    <li>Máy lạnh Casper</li>
+                    <li>Máy lạnh Panasonic</li>
+                    <li>Máy lạnh Midea</li>
+                    <li>Máy lạnh Sharp</li>
+                  </ul>
+                 
+                
+
+              </div>
+              <i class="fas fa-angle-right"></i>
+
+            </a>
+            <a href="DanhSach.html" class="list-group-item">
+              <i class="fas fa-wind"></i>
+              Máy lạnh âm trần
+              
+              <i class="fas fa-angle-right"></i>
+
+            </a>
+            <a href="DanhSach.html" class="list-group-item">
+              <i class="fas fa-wind"></i>
+             Máy lạnh đứng
+              <i class="fas fa-angle-right"></i>
+            </a>
+            <a href="DanhSach.html" class="list-group-item">
+              <i class="fas fa-wind"></i>
+              Khác
+              <i class="fas fa-angle-right"></i>
+            </a>
+          </div>
+
+        </div>
+        <!-- /.col-lg-3 -->
+
+        <div class="col-lg-6" style=" padding: 0px; ">
+
+          <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox" id="slide">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="../image/silde/slideML-1.jpg" alt="ảnh 1">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="../image/silde/slideML-2.jpg" alt="ảnh 2">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="../image/silde/slideML-1.jpg" alt="ảnh 3s">
+              </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Trước</span>
+            </a>
+
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Sau</span>
+            </a>
+
+          </div>
+
+
+          <!-- /.row -->
+
+        </div>
+        <!-- /.col-lg-9 -->
+
+
+        <div class="col-lg-3" id="hinhbanner">
+          <img src="../image/home/MLhome2.jpg" alt="">
+          <img src="../image/home/hinh2.jpg" alt="">
+          <img src="../image/home/MLhome3.jpg" alt="">
+        </div>
+
+      </div>
+      <!-- /.row1 -->
+
+
+      <div class="row">
+        <div class="col-lg-12 divsanpham ">
+          <h3>Máy lạnh bán chạy <a href="DanhSach.html">Xem tất cả</a></h3>
+
+          <div class="row">
+             <!-- San pham 1-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+            <div class="card h-100">
+
+              <a href="Chitietsanpham.html"><img class="card-img-top" src="../image/sanpham/ML-1.jpg" alt=""></a>
+
+              <div class="card-body  ">
+                <h6 class="card-title">
+                  <a href="Chitietsanpham.html"> Máy lạnh Daikin Inverter 3 HP FTKZ71VVMV</a>
+                </h6>
+
+                <div class="row">
+                  <div class="container">
+                    <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                  </div>
+                </div>
+                <div class="cardGia">
+                  9.990.000 đ
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+
+          <!-- San pham 2-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+
+              <a href="Chitietsanpham.html"><img class="card-img-top" src="../image/sanpham/ML-2.jpg" alt=""></a>
+
+              <div class="card-body  ">
+                <h6 class="card-title">
+                  <a href="Chitietsanpham.html">Máy lạnh Daikin Inverter 2.5 HP FTKZ60VVMV</a>
+                </h6>
+              
+               
+
+                <div class="row">
+                  <div class="container">
+                
+                      <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                  </div>
+                </div>
+                <div class="cardGia">
+                  10.430.000 đ
+                </div>
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+
+          <!-- San pham 3-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+
+              <a href="Chitietsanpham.html"><img class="card-img-top" src="../image/sanpham/ML-3.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h6 class="card-title">
+                  <a href="Chitietsanpham.html"> Máy lạnh Panasonic Inverter 2.5 HP CU/CS-U24ZKH-8</a>
+                </h6>
+               
+                <div class="row">
+                  <div class="container">
+                    <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                  </div>
+                </div>
+
+                <div class="cardGia">
+                  11.990.000 đ
+                </div>
+
+              </div>
+
+            </div>
+
+
+          </div>
+
+          <!-- San pham 4-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+
+              <a href="Chitietsanpham.html"><img class="card-img-top" src="../image/sanpham/ML-4.jpg" alt=""></a>
+
+              <div class="card-body">
+                <h6 class="card-title">
+                  <a href="Chitietsanpham.html"> Máy lạnh Panasonic Inverter 2.5 HP CU/CS-XU24ZKH-8</a>
+                </h6>
+              
+                <div class="row">
+                  <div class="container">
+                    <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                  </div>
+                </div>
+
+                <div class="cardGia">
+                  12.790.000 đ
+                </div>
+                
+              </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+    </div>
+	
+	<!-- End dòng 1 sản phẩm -->
+	
+	  <!--Dòng 2 hình ảnh-->
+
+    <div class="container my-2 dong2hinhanh bg-white ">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="../image/home/MLhome4.png" alt="">
+        </div>
+
+        <div class="col-lg-6">
+          <img src="../image/home/MLhome5.jpg" alt="">
+        </div>
+
+
+
+
+      </div>
+    </div>
+
+    <!-- End dòng 2 hình ảnh -->
+
+    <!-- Dòng 3 sản phẩm-->
+
+    <div class="container bg-white" style="padding: 0px;">
+
+      <div class="col-lg-12 divsanpham">
+        <h3>Máy lạnh Khuyến Mãi
+          <a href="DanhSach.html">Xem tất cả</a>
+
+        </h3>
+
+        <div class="row">
+
+         <!-- San pham 5-->
+         <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+          <div class="card h-100">
+
+            <a href="#"><img class="card-img-top" src="../image/sanpham/ML-6.jpg" alt=""></a>
+
+            <div class="card-body chitiet5">
+              <h6 class="card-title">
+                <a href="#">Máy lạnh Daikin FTF25XAV1V </a>
+              </h6>
+              <div class="row">
+                <div class="container">
+                  <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                </div>
+              </div>
+
+              <div class="cardGia">
+                6.790.000 đ
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+        <!-- san pham 6-->
+        <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+          <div class="card h-100">
+
+            <a href="#"><img class="card-img-top" src="../image/sanpham/ML-7.jpg" alt=""></a>
+
+            <div class="card-body chitiet5">
+              <h6 class="card-title">
+                <a href="#">Máy lạnh Casper Inverter 1 HP TC09IS36</a>
+              </h6>
+              <div class="row">
+                <div class="container">
+                  <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                </div>
+              </div>
+
+              <div class="cardGia">
+                4.790.000 đ
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+        <!-- san pham 7-->
+        <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+          <div class="card h-100">
+
+            <a href="#"><img class="card-img-top" src="../image/sanpham/ML-8.jpg" alt=""></a>
+
+            <div class="card-body chitiet5">
+              <h6 class="card-title">
+                <a href="#"> Máy lạnh Panasonic N9WKH-8</a>
+              </h6>
+              <div class="row">
+                <div class="container">
+                  <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                </div>
+              </div>
+
+              <div class="cardGia">
+                7.690.000 đ
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+        <!-- san pham 8-->
+        <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+          <div class="card h-100">
+
+            <a href="#"><img class="card-img-top" src="../image/sanpham/ML-9.png" alt=""></a>
+
+            <div class="card-body chitiet5">
+              <h6 class="card-title">
+                <a href="#"> Máy lạnh Sharp AH-X10ZEW (1.0Hp) inverter</a>
+              </h6>
+              <div class="row">
+                <div class="container">
+                  <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                </div>
+              </div>
+
+              <div class="cardGia">
+                7.790.000 đ
+              </div>
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+
+        </div>
+
+        <a href=""></a>
+      </div>
+    </div>
+
+    <!-- End dòng 3 sản phẩm -->
+
+    <!-- Dòng 4 hình ảnh -->
+
+    <div class="container dong3hinhanh my-2 bg-white">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <img src="../image/home/MLhome6.png" alt="">
+
+        </div>
+
+      </div>
+
+    </div>
+    <!-- End Dòng 4 hình ảnh-->
+
+
+    <!-- Dòng 5 sản phẩm-->
+    <div class="container bg-white" style="padding: 0px;">
+
+      <div class="col-lg-12 divsanpham">
+        <h3>Máy Lạnh Phổ Biến
+          <a href="DanhSach.html">Xem tất cả</a>
+
+        </h3>
+
+        <div class="row">
+
+          <!-- San pham 1-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+  
+              <a href="#"><img class="card-img-top" src="../image/sanpham/ML-9.jpg" alt=""></a>
+  
+              <div class="card-body chitiet5">
+                <h6 class="card-title">
+                  <a href="#"> Máy lạnh Hitachi Inverter 2.5 HP RAK-DJ24PCASVX</a>
+                </h6>
+                <div class="row">
+                  <div class="container">
+                    <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                  </div>
+                </div>
+  
+                <div class="cardGia">
+                  7.790.000 đ
+                </div>
+  
+              </div>
+  
+  
+            </div>
+  
+  
+          </div>
+
+          <!-- San pham 2-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+  
+              <a href="#"><img class="card-img-top" src="../image/sanpham/ML-10.jpg" alt=""></a>
+  
+              <div class="card-body chitiet5">
+                <h6 class="card-title">
+                  <a href="#"> Máy Lạnh Toshiba Inverter 2.5 Hp RAS-H24S4KCV2G-V</a>
+                </h6>
+                <div class="row">
+                  <div class="container">
+                    <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                  </div>
+                </div>
+  
+                <div class="cardGia">
+                  4.790.000 đ
+                </div>
+  
+              </div>
+  
+  
+            </div>
+  
+  
+          </div>
+
+
+
+          <!-- San pham 3-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+  
+              <a href="#"><img class="card-img-top" src="../image/sanpham/ML-11.jpg" alt=""></a>
+  
+              <div class="card-body chitiet5">
+                <h6 class="card-title">
+                  <a href="#">Máy lạnh Panasonic Inverter 2 HP CU/CS-PU18AKH-8</a>
+                </h6>
+                <div class="row">
+                  <div class="container">
+                    <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                  </div>
+                </div>
+  
+                <div class="cardGia">
+                  19.790.000 đ
+                </div>
+  
+              </div>
+  
+  
+            </div>
+  
+  
+          </div>
+
+          <!-- San pham 4-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+  
+              <a href="#"><img class="card-img-top" src="../image/sanpham/ML-12.jpg" alt=""></a>
+  
+              <div class="card-body chitiet5">
+                <h6 class="card-title">
+                  <a href="#"> Máy lạnh Panasonic Inverter 2.5 HP CU/CS-XU24ZKH-8</a>
+                </h6>
+                <div class="row">
+                  <div class="container">
+                    <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                  </div>
+                </div>
+  
+                <div class="cardGia">
+                  10.790.000 đ
+                </div>
+  
+              </div>
+  
+  
+            </div>
+  
+  
+          </div>
+
+          <!-- San pham 5-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+  
+              <a href="#"><img class="card-img-top" src="../image/sanpham/ML-13.jpg" alt=""></a>
+  
+              <div class="card-body chitiet5">
+                <h6 class="card-title">
+                  <a href="#">Máy lạnh Panasonic Inverter 2 HP CU/CS-RU18AKH-8</a>
+                </h6>
+                <div class="row">
+                  <div class="container">
+                    <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                  </div>
+                </div>
+  
+                <div class="cardGia">
+                  19.190.000 đ
+                </div>
+  
+              </div>
+  
+  
+            </div>
+  
+  
+          </div>
+
+          <!-- san pham 6-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+  
+              <a href="#"><img class="card-img-top" src="../image/sanpham/ML-14.jpg" alt=""></a>
+  
+              <div class="card-body chitiet5">
+                <h6 class="card-title">
+                  <a href="#">Máy lạnh Daikin Inverter 2 HP FTKF50XVMV</a>
+                </h6>
+                <div class="row">
+                  <div class="container">
+                    <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                  </div>
+                </div>
+  
+                <div class="cardGia">
+                  15.790.000 đ
+                </div>
+  
+              </div>
+  
+  
+            </div>
+  
+  
+          </div>
+
+          <!-- san pham 7-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+  
+              <a href="#"><img class="card-img-top" src="../image/sanpham/ML-16.jpg" alt=""></a>
+  
+              <div class="card-body chitiet5">
+                <h6 class="card-title">
+                  <a href="#"> Máy lạnh Panasonic Inverter 2 HP CU/CS-RU18AKH-8</a>
+                </h6>
+                <div class="row">
+                  <div class="container">
+                    <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                  </div>
+                </div>
+  
+                <div class="cardGia">
+                  18.790.000 đ
+                </div>
+  
+              </div>
+  
+  
+            </div>
+  
+  
+          </div>
+
+          <!-- san pham 8-->
+          <div class="col-lg-3 col-md-6 mb-3">
+
+
+
+            <div class="card h-100">
+  
+              <a href="#"><img class="card-img-top" src="../image/sanpham/ML-15.jpg" alt=""></a>
+  
+              <div class="card-body chitiet5">
+                <h6 class="card-title">
+                  <a href="#"> Máy lạnh Mitsubishi Electric Inverter 2 HP MSY-JW50VF</a>
+                </h6>
+                <div class="row">
+                  <div class="container">
+                    <p class="btn btn-primary"> Sẵn sàng giao hàng</p>
+                  </div>
+                </div>
+  
+                <div class="cardGia">
+                  17.790.000 đ
+                </div>
+  
+              </div>
+  
+  
+            </div>
+  
+  
+          </div>
+
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- End dòng 5 sản phẩm-->
+
+
+
+    <div class="container bg-white dongcuoi my-3">
+      <div class="row">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding-left: 0px; padding-right: 5px;">
+          <img src="../image/home/MLhome1.jpg" alt="">
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding-left: 0px; padding-right: 5px;">
+          <img src="../image/home/MLhome5.jpg" alt="">
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" style="padding-left: 5px; padding-right: 0px;">
+          <img src="../image/home/MLhome7.jpg" alt="">
+        </div>
+
+      </div>
+
+
+  </div>
+
+
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 my-3 bg-white">
+    <div class="container ">
+      <div class="row">
+        <div class="col-6 ulfooter">
+          <h5 xss=removed>Hoài Nam Store</h5>
+          <hr>
+
+          <p>Địa chỉ: 12 Nguyễn Văn Bảo, Phường 4, Gò Vấp, Hồ Chí Minh</p>
+          <p>Hotline bán hàng: 0832497495 (Hoài Nam)</p>
+          <p>Email: namprophunong004@gmail.com</p>
+          <div class="container">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-google-plus"></i></a>
+            <a href="#"><i class="fab fa-youtube-square"></i></a>
+            <a href="#"><i class="fab fa-twitter-square"></i></a>
+          </div>
+
+        </div>
+
+        <div class="col-3 ulfooter">
+          <h5>CHÍNH SÁCH CHUNG</h5>
+          <hr>
+
+          <p><a href="gioithieu.html">Chính sách đổi trả hàng</a></p>
+          <p><a href="gioithieu.html">Chính sách vận chuyển</a></p>
+          <p><a href="gioithieu.html">Chính sách bán hàng online</a></p>
+          <p><a href="gioithieu.html">Chính sách bảo hành</a></p>
+          <p><a href="gioithieu.html">Chính sách trả góp</a></p>
+
+
+        </div>
+
+        <div class="col-3 ulfooter">
+          <h5>TRỢ GIÚP</h5>
+
+          <hr>
+
+
+          <p><a href="gioithieu.html">Giới thiệu</a></p>
+          <p><a href="gioithieu.html">Thông tin liên lạc</a></p>
+          <p><a href="gioithieu.html">Hướng dẫn mua hàng online</a></p>
+          <p><a href="gioithieu.html">Hướng dẫn trả góp</a></p>
+          <p><a href="gioithieu.html">Chính sách bảo hành</a></p>
+          <p xss=removed><a href="gioithieu.html">Chính sách trả góp</a></p>
+        </div>
+      </div>
+    </div>
+
+
+  </footer>
+
+  <div class="bg-light contaier-fluid " style="font-size: 13px;color: slategray;text-align: center;">
+    2024-Hoài Nam Store Copyright, All Rights Reserved.
+    <br>
+    <br>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="../js/Home.js"></script>
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="../js/dangnhap.js"></script>
+
+  <script>
+    $("#menuloai a").mouseenter(function () {
+      $("#menucap2").fadeIn();
+
+    });
+
+    $("#menuloai a").mouseleave(function () {
+      $("#menucap2").fadeOut();
+
+    });
+
+  </script>
+
+</body>
+
+</html>
